@@ -9101,7 +9101,7 @@ CodeMirror$1.inputStyles = {"textarea": TextareaInput, "contenteditable": Conten
 // Extra arguments are stored as the mode's dependencies, which is
 // used by (legacy) mechanisms like loadmode.js to automatically
 // load a mode. (Preferred mechanism is the require/define calls.)
-CodeMirror$1.defineMode = function(name/*, mode, …*/) {
+CodeMirror$1.defineMode = function(name/*, mode, â€¦*/) {
   if (!CodeMirror$1.defaults.mode && name != "null") { CodeMirror$1.defaults.mode = name }
   defineMode.apply(this, arguments)
 }
